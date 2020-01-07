@@ -1,0 +1,9 @@
+--- # Configuration
+  serial_address: "/dev/ttyACM0"
+  baud_rate: 9600
+  serial_log_filename: "serial_port.log"
+  influxdb_host: "localhost"
+  influxdb_port: 8086
+  influxdb_user: "arduino-1"
+  influxdb_passwd: "arduino-1"
+  influxdb_dbname: "sensor_data"
