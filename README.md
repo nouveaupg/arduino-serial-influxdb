@@ -15,3 +15,5 @@ $ (venv) python dht_logger.py
 config.yaml has all the configuration you need. Not sure if you need to install the Influx client program to use the Python libraries.
 
 TODO: Setup a slick systemd service file to manage this.
+
+Tried using the Async functionality at first but as normal this is a slow sense and "threading" in Python works fine a 9800 baud. DHT33 is a slow sensor.
